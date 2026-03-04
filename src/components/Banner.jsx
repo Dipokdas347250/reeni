@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdArrowForward } from "react-icons/md";
-import banner from "../../assets/banner.png"
+import banner from "../assets/banner.png"
 import { FaInstagram, FaLinkedinIn, FaTwitter, FaFacebookF } from "react-icons/fa";
 
 

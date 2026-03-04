@@ -1,12 +1,16 @@
-import React from 'react'
-import Navber from './components/home/Navber'
-import Banner from './components/home/Banner'
+import Banner from "./components/Banner"
+import Navber from "./components/Navber"
+
 
 const App = () => {
+  
   return (
    <>
+
    <Navber/>
    <Banner/>
+   
+
    </>
   )
 }

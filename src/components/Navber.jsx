@@ -74,7 +74,7 @@
 
 
 import React, { useState, useEffect } from "react";
-import logo from "../../assets/logo.png";
+import logo from "../assets/logo.png"
 import { FaInstagram, FaLinkedinIn, FaTwitter, FaFacebookF } from "react-icons/fa";
 import { MdDarkMode } from "react-icons/md";
 import { FaBarsStaggered } from "react-icons/fa6";
@@ -82,6 +82,9 @@ import { GiTireIronCross } from "react-icons/gi";
 
 const Navber = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+   function toggleDark() {
+    document.documentElement.classList.toggle("dark");
+  }
 
   // 🔒 Body Scroll Lock + ESC Close
   useEffect(() => {
@@ -104,10 +107,12 @@ const Navber = () => {
       document.body.style.overflow = "auto";
     };
   }, [menuOpen]);
+  
 
   return (
-    <nav className="py-5 bg-[#f4f4f4] shadow-xl relative z-30">
+    <nav className="py-2.5 bg-[#f4f4f4] shadow-xl relative z-30">
       <div className="container mx-auto px-4">
+     
 
         {/* Top Row */}
         <div className="flex justify-between items-center">
@@ -195,6 +200,7 @@ const Navber = () => {
           ))}
         </div>
       </div>
+    
     </nav>
   );
 };
