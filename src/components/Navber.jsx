@@ -79,6 +79,7 @@ import { FaInstagram, FaLinkedinIn, FaTwitter, FaFacebookF } from "react-icons/f
 import { MdDarkMode } from "react-icons/md";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { GiTireIronCross } from "react-icons/gi";
+import DarkMode from "../toggle/DarkMode";
 
 const Navber = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -110,7 +111,7 @@ const Navber = () => {
   
 
   return (
-    <nav className="py-2.5 bg-[#f4f4f4] shadow-xl relative z-30">
+    <nav className="py-2.5 bg-[#f4f4f4] dark:bg-primary shadow-xl relative z-30">
       <div className="container mx-auto px-4">
      
 
@@ -123,7 +124,7 @@ const Navber = () => {
           </div>
 
           {/* Desktop Menu */}
-          <ul className="hidden lg:flex gap-8 text-[16px] text-primary font-bold font-rajdhani cursor-pointer">
+          <ul className="hidden lg:flex gap-8 text-[16px] text-primary dark:text-white font-bold font-rajdhani cursor-pointer">
             <li>Home</li>
             <li>About</li>
             <li>Services</li>
@@ -134,19 +135,20 @@ const Navber = () => {
 
           {/* Desktop Social */}
           <div className="hidden lg:flex items-center gap-2">
-            {[FaInstagram, FaLinkedinIn, FaTwitter, FaFacebookF, MdDarkMode].map((Icon, i) => (
+            {[FaInstagram, FaLinkedinIn, FaTwitter, FaFacebookF,].map((Icon, i) => (
               <div
                 key={i}
-                className="p-3 bg-[#e6e6e6] text-primary rounded-full duration-300 hover:bg-secondary hover:text-white cursor-pointer"
+                className="p-3 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 hover:bg-secondary hover:text-white  cursor-pointer"
               >
                 <Icon />
               </div>
             ))}
+            <DarkMode/>
           </div>
 
           {/* Mobile Hamburger */}
           <div
-            className="lg:hidden p-3 bg-[#e6e6e6] text-primary rounded-full cursor-pointer"
+            className="lg:hidden p-3 bg-[#e6e6e6] dark:bg-[#232323] text-primary rounded-full cursor-pointer"
             onClick={() => setMenuOpen(true)}
           >
             <FaBarsStaggered />
@@ -179,7 +181,7 @@ const Navber = () => {
         </div>
 
         {/* Menu Items */}
-        <ul className="flex flex-col items-center gap-8 mt-10 text-primary font-bold font-rajdhani text-lg">
+        <ul className="flex flex-col items-center gap-8 mt-10 text-primary dark:text-white font-bold font-rajdhani text-lg">
           <li onClick={() => setMenuOpen(false)}>Home</li>
           <li onClick={() => setMenuOpen(false)}>About</li>
           <li onClick={() => setMenuOpen(false)}>Services</li>
@@ -193,7 +195,7 @@ const Navber = () => {
           {[FaInstagram, FaLinkedinIn, FaTwitter, FaFacebookF].map((Icon, i) => (
             <div
               key={i}
-              className="p-3 bg-[#e6e6e6] text-primary rounded-full duration-300 hover:bg-secondary hover:text-white cursor-pointer"
+              className="p-3 bg-[#e6e6e6] dark:bg-[#232323] text-primary rounded-full duration-300 hover:bg-secondary hover:text-white cursor-pointer"
             >
               <Icon />
             </div>
