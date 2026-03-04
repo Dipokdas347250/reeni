@@ -106,7 +106,7 @@ const Navber = () => {
   }, [menuOpen]);
 
   return (
-    <nav className="py-6 bg-[#f4f4f4] shadow-xl relative z-30">
+    <nav className="py-5 bg-[#f4f4f4] shadow-xl relative z-30">
       <div className="container mx-auto px-4">
 
         {/* Top Row */}
