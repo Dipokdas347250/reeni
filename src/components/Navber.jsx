@@ -87,7 +87,7 @@ const Navber = () => {
     document.documentElement.classList.toggle("dark");
   }
 
-  // 🔒 Body Scroll Lock + ESC Close
+
   useEffect(() => {
     if (menuOpen) {
       document.body.style.overflow = "hidden";
@@ -111,19 +111,12 @@ const Navber = () => {
   
 
   return (
-    <nav className="py-2.5 bg-[#f4f4f4] dark:bg-primary shadow-xl relative z-30">
+    <nav className="py-2.5 bg-[#f4f4f4] dark:bg-primary shadow-xl z-50 sticky top-0 w-full">
       <div className="container mx-auto px-4">
-     
-
-        {/* Top Row */}
         <div className="flex justify-between items-center">
-
-          {/* Logo */}
           <div className="w-28">
             <img src={logo} alt="logo" />
           </div>
-
-          {/* Desktop Menu */}
           <ul className="hidden lg:flex gap-8 text-[16px] text-primary dark:text-white font-bold font-rajdhani cursor-pointer">
             <li>Home</li>
             <li>About</li>
@@ -132,8 +125,6 @@ const Navber = () => {
             <li>Projects</li>
             <li>Contact</li>
           </ul>
-
-          {/* Desktop Social */}
           <div className="hidden lg:flex items-center gap-2">
             {[FaInstagram, FaLinkedinIn, FaTwitter, FaFacebookF,].map((Icon, i) => (
               <div
@@ -156,7 +147,7 @@ const Navber = () => {
         </div>
       </div>
 
-      {/* 🔹 Backdrop */}
+      
       {menuOpen && (
         <div
           className="fixed inset-0 bg-black/40 backdrop-blur-sm z-40 lg:hidden transition-opacity duration-300"
@@ -164,13 +155,13 @@ const Navber = () => {
         ></div>
       )}
 
-      {/* 🔹 Mobile Menu */}
+      
       <div
         className={`fixed top-0 right-0 h-full w-72 bg-white shadow-2xl z-50 transform ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out lg:hidden`}
       >
-        {/* Close Button */}
+       
         <div className="flex justify-end p-4">
           <div
             className="p-2 bg-[#e6e6e6] rounded-full cursor-pointer hover:bg-secondary hover:text-white duration-300"
@@ -179,8 +170,6 @@ const Navber = () => {
             <GiTireIronCross />
           </div>
         </div>
-
-        {/* Menu Items */}
         <ul className="flex flex-col items-center gap-8 mt-10 text-primary dark:text-white font-bold font-rajdhani text-lg">
           <li onClick={() => setMenuOpen(false)}>Home</li>
           <li onClick={() => setMenuOpen(false)}>About</li>
@@ -189,17 +178,16 @@ const Navber = () => {
           <li onClick={() => setMenuOpen(false)}>Projects</li>
           <li onClick={() => setMenuOpen(false)}>Contact</li>
         </ul>
-
-        {/* Social Icons */}
         <div className="flex justify-center gap-4 mt-12">
           {[FaInstagram, FaLinkedinIn, FaTwitter, FaFacebookF].map((Icon, i) => (
             <div
               key={i}
-              className="p-3 bg-[#e6e6e6] dark:bg-[#232323] text-primary rounded-full duration-300 hover:bg-secondary hover:text-white cursor-pointer"
+              className="p-3 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 hover:bg-secondary hover:text-white cursor-pointer"
             >
               <Icon />
             </div>
           ))}
+          <DarkMode/>
         </div>
       </div>
     

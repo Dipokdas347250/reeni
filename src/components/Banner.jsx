@@ -10,11 +10,11 @@ const Banner = () => {
         <>
             <section className='pb-22.5 bg-white relative dark:bg-primary'>
                 <h2 className="absolute bottom-10 left-[22.5%] text-[213px] font-bold font-rajdhani leading-61 text-transparent [--stroke-color:var(--color-primary)] dark:[--stroke-color:var(--color-white)]  [-webkit-text-stroke:1px_var(--stroke-color)] ">
-                            WEB DESIGN
-                        </h2>
-                <h3 className="absolute bottom-0 left-1/2  -translate-x-1/2 text-[150px] font-bold font-rajdhani leading-43 text-transparent [--stroke-color:var(--color-secondary)] [-webkit-text-stroke:1px_var(--stroke-color)] z-50">
-                            WEB DESIGN
-                        </h3>
+                    WEB DESIGN
+                </h2>
+                <h3 className="absolute bottom-0 left-1/2  -translate-x-1/2 text-[150px] font-bold font-rajdhani leading-43 text-transparent [--stroke-color:var(--color-secondary)] [-webkit-text-stroke:1px_var(--stroke-color)] z-40">
+                    WEB DESIGN
+                </h3>
                 <div className="container ">
                     <div className=" ">
                         <div className=" flex justify-between items-start">
@@ -52,7 +52,7 @@ const Banner = () => {
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </section>
