@@ -1,6 +1,7 @@
 import Banner from "./components/Banner"
 import Experience from "./components/Experience"
 import Navber from "./components/Navber"
+import Service from "./components/Service"
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
    <Navber/>
    <Banner/>
    <Experience/>
+   <Service/>
    
 
    </>
