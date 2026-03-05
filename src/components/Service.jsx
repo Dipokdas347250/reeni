@@ -1,5 +1,15 @@
 import React from 'react'
 import margin from "../assets/Margin.png"
+import container from "../assets/Container.png"
+import lin from "../assets/lin.svg"
+import fra from "../assets/fra.svg"
+import not from "../assets/not.svg"
+import sla from "../assets/sla.svg"
+import med from "../assets/med.svg"
+import upw from "../assets/upw.svg"
+import ama from "../assets/ama.svg"
+import asa from "../assets/asa.svg"
+
 
 const Service = () => {
     return (
@@ -159,6 +169,47 @@ const Service = () => {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                   </div>
+
+                   <div className="flex justify-between items-center gap-17.5 mt-18.75">
+                    <div className="w-1/2">
+                        <img src={container} alt="" />
+                    </div>
+                    <div className="w-1/2">
+                        <div className="">
+                            <h2 className='text-[32px] text-primary dark:text-white font-bold font-rajdhani leading-10.5'>Experiences </h2>
+                                <div className="mt-8">
+                                    <h3 className='text-[16px] text-secondary font-medium  font-rubik '>experience</h3>
+                                    <h4 className='text-[24px] text-primary dark:text-white font-bold font-rajdhani leading-7.5'>Fatima Asrafy</h4>
+                                    <h5 className='text-[18px] text-primary dark:text-white font-medium font-rajdhani leading-7'>UI/UX Designer</h5>
+                                    <p className='text-[16px] text-tertiary font-normal font-rubik leading-7.5 mt-4 w-111'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum desi dolore eu fugiat nulla pariatu Duis aute irure</p>
+                                </div>
+                                <div className="mt-12.5">
+                                    <h3 className='text-[16px] text-secondary font-medium  font-rubik '>experience</h3>
+                                    <h4 className='text-[24px] text-primary dark:text-white font-bold font-rajdhani leading-7.5'>Fatima Asrafy</h4>
+                                    <h5 className='text-[18px] text-primary dark:text-white font-medium font-rajdhani leading-7'>UI/UX Designer</h5>
+                                    <p className='text-[16px] text-tertiary font-normal font-rubik leading-7.5 mt-4 w-111'>Interested in working together? Let’s bring your ideas to life! Contact me, and let’s start building something.</p>
+                                </div>
+                            
+                        </div>
+                    </div>
+                   </div>
+
+
+                   <div className="border border-[#9F9F9F] w-321.5 mx-auto mt-30.5">
+                    <div className="flex">
+                        <img className='border border-[#9F9F9F]' src={lin} alt="" />
+                        <img className='border border-[#9F9F9F]' src={fra} alt="" />
+                        <img className='border border-[#9F9F9F]' src={not} alt="" />
+                        <img className='border border-[#9F9F9F]' src={sla} alt="" />
+                    </div>
+                    <div className="flex">
+                        <img className='border border-[#9F9F9F]' src={med} alt="" />
+                        <img className='border border-[#9F9F9F]' src={upw} alt="" />
+                        <img className='border border-[#9F9F9F]' src={ama} alt="" />
+                        <img className='border border-[#9F9F9F]' src={asa} alt="" />
+
                     </div>
                    </div>
 
