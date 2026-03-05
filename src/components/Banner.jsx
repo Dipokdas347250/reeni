@@ -8,7 +8,7 @@ import { FaInstagram, FaLinkedinIn, FaTwitter, FaFacebookF } from "react-icons/f
 const Banner = () => {
     return (
         <>
-            <section className='pb-22.5 bg-white relative dark:bg-primary'>
+            <section className='pb-22.5 bg-white relative dark:bg-[#1e1e1e]'>
                 <h2 className="absolute bottom-10 left-[22.5%] text-[213px] font-bold font-rajdhani leading-61 text-transparent [--stroke-color:var(--color-primary)] dark:[--stroke-color:var(--color-white)]  [-webkit-text-stroke:1px_var(--stroke-color)] ">
                     WEB DESIGN
                 </h2>

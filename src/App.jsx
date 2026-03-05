@@ -1,7 +1,10 @@
 import Banner from "./components/Banner"
 import Experience from "./components/Experience"
 import Navber from "./components/Navber"
+import Portfolio from "./components/Portfolio"
+import Price_plen from "./components/Price_plen"
 import Service from "./components/Service"
+import Testimonial from "./components/Testimonial"
 
 
 const App = () => {
@@ -13,6 +16,9 @@ const App = () => {
    <Banner/>
    <Experience/>
    <Service/>
+   <Portfolio/>
+   <Price_plen/>
+   <Testimonial/>
    
 
    </>

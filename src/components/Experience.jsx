@@ -7,7 +7,7 @@ import mark from "../assets/mark.svg"
 const Experience = () => {
     return (
         <>
-            <section className='pt-22.5 bg-white dark:bg-primary'>
+            <section className='pt-22.5 bg-white dark:bg-[#1e1e1e]'>
                 <div className="container">
                     <div className="flex justify-between items-center gap-7.5">
                         <div className="w-[25%]">
@@ -58,7 +58,7 @@ const Experience = () => {
 
                     <div className="mt-30 flex justify-between items-center gap-8">
                         <div className="w-1/2">
-                            <div className=" px-13 pt-9 pb-13 bg-[#f4f4f4] dark:bg-[#1e1e1e] rounded-[20px] overflow-hidden relative after:absolute 
+                            <div className=" px-13 pt-9 pb-13 bg-[#f4f4f4] dark:bg-primary rounded-[20px] overflow-hidden relative after:absolute 
                             after:h-full after:w-full after:top-50 after:left-100 dark:after:bg-secondary after:blur-[90px]  ">
                                 <div className=" flex gap-11 items-center">
                                     <h3 className='text-[267px] text-secondary font-bold font-rajdhani leading-45.75'>25</h3>
@@ -71,14 +71,14 @@ const Experience = () => {
                            <div className="">
                              <div className="flex justify-between items-center gap-8">
                                 <div className="w-1/2 ">
-                                    <div className="py-9 bg-[#f4f4f4] dark:bg-[#1e1e1e] rounded-[20px] border-b border-r border-secondary  ">
+                                    <div className="py-9 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b border-r border-secondary  ">
                                         <h2 className='text-[48px] text-primary dark:text-white font-bold font-rajdhani leading-15.5 text-center'>20k+</h2>
                                         <p className='text-[16px] text-tertiary font-normal font-rubik leading-6.5 mt-1 text-center'>Our Project Complete</p>
 
                                     </div>
                                 </div>
                                 <div className="w-1/2 ">
-                                    <div className="py-9 bg-[#f4f4f4] dark:bg-[#1e1e1e] rounded-[20px] border-b border-r border-secondary  ">
+                                    <div className="py-9 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b border-r border-secondary  ">
                                         <h2 className='text-[48px] text-primary dark:text-white font-bold font-rajdhani leading-15.5 text-center'>20k+</h2>
                                         <p className='text-[16px] text-tertiary font-normal font-rubik leading-6.5 mt-1 text-center'>Our Project Complete</p>
 
@@ -90,14 +90,14 @@ const Experience = () => {
                             <div className="">
                                  <div className="flex justify-between items-center gap-8 mt-8">
                                 <div className="w-1/2 ">
-                                    <div className="py-9 bg-[#f4f4f4] dark:bg-[#1e1e1e] rounded-[20px] border-b border-r border-secondary  ">
+                                    <div className="py-9 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b border-r border-secondary  ">
                                         <h2 className='text-[48px] text-primary dark:text-white font-bold font-rajdhani leading-15.5 text-center'>20k+</h2>
                                         <p className='text-[16px] text-tertiary font-normal font-rubik leading-6.5 mt-1 text-center'>Our Project Complete</p>
 
                                     </div>
                                 </div>
                                 <div className="w-1/2 ">
-                                    <div className="py-9 bg-[#f4f4f4] dark:bg-[#1e1e1e] rounded-[20px] border-b border-r border-secondary  ">
+                                    <div className="py-9 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b border-r border-secondary  ">
                                         <h2 className='text-[48px] text-primary dark:text-white font-bold font-rajdhani leading-15.5 text-center'>20k+</h2>
                                         <p className='text-[16px] text-tertiary font-normal font-rubik leading-6.5 mt-1 text-center'>Our Project Complete</p>
 

@@ -14,7 +14,7 @@ import asa from "../assets/asa.svg"
 const Service = () => {
     return (
         <>
-            <section className='py-30 bg-white dark:bg-primary'>
+            <section className='py-30 bg-white dark:bg-[#1e1e1e]'>
                 <div className="container">
                     <div className="">
                         <h4 className='text-[16px] text-secondary font-medium  font-rubik  text-center uppercase'>Latest Service</h4>
@@ -25,21 +25,21 @@ const Service = () => {
                     <div className=" flex justify-between items-center mt-15">
                         <div className="w-1/2">
                             <div className="">
-                                <div className="py-8.5 px-9.5 bg-[#f4f4f4] dark:bg-[#1e1e1e] rounded-[20px] border-b border-r border-secondary  ">
+                                <div className="py-8.5 px-9.5 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b border-r border-secondary  ">
                                     <h2 className='text-[24px] text-primary dark:text-white font-bold font-rajdhani leading-15 '>01. A Portfolio of Creativity</h2>
                                     <p className='text-[16px] text-tertiary font-normal font-rubik leading-6.5 mt-1 '>Business consulting consultants provide expert advice and guida the a businesses to help theme their performance efficiency</p>
 
                                 </div>
                             </div>
                             <div className="">
-                                <div className="py-8.5 px-9.5 bg-[#f4f4f4] dark:bg-[#1e1e1e] rounded-[20px] border-b border-r border-secondary mt-5 ">
+                                <div className="py-8.5 px-9.5 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b border-r border-secondary mt-5 ">
                                     <h2 className='text-[24px] text-primary dark:text-white font-bold font-rajdhani leading-15 '>02. My Portfolio of Innovation</h2>
                                     <p className='text-[16px] text-tertiary font-normal font-rubik leading-6.5 mt-1 '>My work is driven by the belief that thoughtful design and strategic planning can empower brands, transform businesses</p>
 
                                 </div>
                             </div>
                             <div className="">
-                                <div className="py-8.5 px-9.5 bg-[#f4f4f4] dark:bg-[#1e1e1e] rounded-[20px] border-b border-r border-secondary mt-5 ">
+                                <div className="py-8.5 px-9.5 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b border-r border-secondary mt-5 ">
                                     <h2 className='text-[24px] text-primary dark:text-white font-bold font-rajdhani leading-15 '>03. A Showcase of My Projects</h2>
                                     <p className='text-[16px] text-tertiary font-normal font-rubik leading-6.5 mt-1 '>In this portfolio, you’ll find a curated selection of projects that highlight my skills in Main Areas, e.g., responsive web design</p>
 
@@ -135,7 +135,7 @@ const Service = () => {
                      <div className=" flex justify-between items-center mt-8 gap-8">
                         <div className="w-1/2">
                             <div className="">
-                                <div className="py-12 px-9.5 bg-[#f4f4f4] dark:bg-[#1e1e1e] rounded-[20px] border-b border-r border-secondary  ">
+                                <div className="py-12 px-9.5 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b border-r border-secondary  ">
                                     <h4 className='text-[16px] text-primary dark:text-white font-normal font-rubik leading-6.5'>Trainer Marketing</h4>
                                     <h2 className='text-[18px] text-primary dark:text-white font-bold font-rajdhani leading-7 '>2005-2009</h2>
                                     <p className='text-[16px] text-tertiary font-normal font-rubik leading-6.5 mt-4 '>A personal portfolio is a curated collection of an individual's professional work, showcasing their skills, experience A personal portfolio.</p>
@@ -143,7 +143,7 @@ const Service = () => {
                                 </div>
                             </div>
                             <div className="">
-                                <div className="py-12 px-9.5 bg-[#f4f4f4] dark:bg-[#1e1e1e] rounded-[20px] border-b border-r border-secondary mt-8 ">
+                                <div className="py-12 px-9.5 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b border-r border-secondary mt-8 ">
                                     <h4 className='text-[16px] text-primary dark:text-white font-normal font-rubik leading-6.5'>Design Assistant</h4>
                                     <h2 className='text-[18px] text-primary dark:text-white font-bold font-rajdhani leading-7 '>2008-2012</h2>
                                     <p className='text-[16px] text-tertiary font-normal font-rubik leading-6.5 mt-4 '>I’ve had the privilege of working with various clients, from startups to established companies, helping bring their visions to life.</p>
@@ -153,7 +153,7 @@ const Service = () => {
                         </div>
                         <div className="w-1/2">
                             <div className="">
-                                <div className="py-12 px-9.5 bg-[#f4f4f4] dark:bg-[#1e1e1e] rounded-[20px] border-b border-r border-secondary  ">
+                                <div className="py-12 px-9.5 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b border-r border-secondary  ">
                                     <h4 className='text-[16px] text-primary dark:text-white font-normal font-rubik leading-6.5'>Assistant Director</h4>
                                     <h2 className='text-[18px] text-primary dark:text-white font-bold font-rajdhani leading-7 '>2010-2014</h2>
                                     <p className='text-[16px] text-tertiary font-normal font-rubik leading-6.5 mt-4 '>Each project here showcases my commitment to excellence and adaptability, tailored to meet each client’s unique needs.</p>
@@ -161,7 +161,7 @@ const Service = () => {
                                 </div>
                             </div>
                             <div className="">
-                                <div className="py-12 px-9.5 bg-[#f4f4f4] dark:bg-[#1e1e1e] rounded-[20px] border-b border-r border-secondary mt-8 ">
+                                <div className="py-12 px-9.5 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b border-r border-secondary mt-8 ">
                                     <h4 className='text-[16px] text-primary dark:text-white font-normal font-rubik leading-6.5'>Design Assistant</h4>
                                     <h2 className='text-[18px] text-primary dark:text-white font-bold font-rajdhani leading-7 '>2008-2012</h2>
                                     <p className='text-[16px] text-tertiary font-normal font-rubik leading-6.5 mt-4 '>Each project here showcases my commitment to excellence and adaptability, tailored to meet each client’s unique needs a personal.</p>
