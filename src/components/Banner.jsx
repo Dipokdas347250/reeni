@@ -70,13 +70,6 @@ const Banner = () => {
                 </div>
             </section>
 
-
-            {/* <div className=" fixed bottom-40 right-40">
-                <div className="p-3.25 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 ease-in-out hover:bg-secondary hover:text-white inline-block  ">
-                    <FaFacebookMessenger />
-                </div>
-
-            </div> */}
             <div className="fixed lg:bottom-42.5 bottom-10 right-5 z-40">
                 <div
                     onClick={() => setOpen(true)}
@@ -84,7 +77,7 @@ const Banner = () => {
                 >
                     <FaFacebookMessenger />
                 </div>
-                  
+
             </div>
             <div className={`fixed top-0 right-0 h-screen w-100 bg-white shadow-lg duration-500 transform z-50 
     ${open ? "translate-x-0" : "translate-x-full"}`}>
