@@ -1,4 +1,5 @@
 import Banner from "./components/Banner"
+import Blog from "./components/Blog"
 import Experience from "./components/Experience"
 import Navber from "./components/Navber"
 import Portfolio from "./components/Portfolio"
@@ -19,6 +20,7 @@ const App = () => {
    <Portfolio/>
    <Price_plen/>
    <Testimonial/>
+   <Blog/>
    
 
    </>
