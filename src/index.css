@@ -3,7 +3,9 @@
 
 
 
-
+body{
+  @apply dark:bg-[#1e1e1e] bg-white;
+}
 
 
 @layer utilities{

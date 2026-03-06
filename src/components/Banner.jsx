@@ -22,12 +22,12 @@ const Banner = () => {
 
     return (
         <>
-            <section className='lg:pb-22.5 pb-7.5 bg-white relative dark:bg-[#1e1e1e]'>
+            <section className='lg:pb-22.5 pb-7.5 bg-white  dark:bg-[#1e1e1e]'>
               
                 <div className="container ">
                     <div className=" ">
-                        <div className=" lg:flex justify-between items-start mt-8 relative ">
-                            <img className=' lg:w-159.25 w-90 lg:h-201.25 h-113.75 md:w-120 md:h-140 left-1/2 lg:top-0 -top-125 md:-top-150  -translate-x-1/2 absolute z-10' src={banner} alt="" />
+                        <div className=" lg:flex justify-between items-start  relative bg-white dark:bg-[#1e1e1e] ">
+                            <img className='  lg:w-159.25 w-90 lg:h-201.25 h-113.75 md:w-120 md:h-140 left-1/2 lg:top-0 -top-125 md:-top-150  -translate-x-1/2 absolute z-10' src={banner} alt="" />
                             <div className="lg:w-[25%] w-full lg:mt-52.75 mt-125 md:mt-150 ">
                                 <h2 className='lg:text-[28px] text-[20px] md:text-[28px] text-primary dark:text-white font-bold font-rajdhani uppercase leading-9.5'>Hello i’m</h2>
                                 <h1 className='lg:text-[90px] text-[38px] md:text-[70px] text-primary dark:text-white font-bold font-rajdhani  lg:leading-26 md:leading-26  leading-12'>Brooklyn Simmons</h1>
