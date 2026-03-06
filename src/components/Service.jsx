@@ -14,16 +14,16 @@ import asa from "../assets/asa.svg"
 const Service = () => {
     return (
         <>
-            <section className='py-30 bg-white dark:bg-[#1e1e1e]'>
+            <section className='lg:py-30 py-15 bg-white dark:bg-[#1e1e1e]'>
                 <div className="container">
                     <div className="">
                         <h4 className='text-[16px] text-secondary font-medium  font-rubik  text-center uppercase'>Latest Service</h4>
-                        <h2 className='text-[48px] text-primary dark:text-white font-bold font-rajdhani text-center leading-15'>Inspiring The World One Project</h2>
-                        <p className='text-[16px] text-tertiary font-normal font-rubik text-center w-156.75 mx-auto '>Business consulting consultants provide expert advice and guida businesses to help them improve their performance, efficiency, and organizational</p>
+                        <h2 className='lg:text-[48px] text-[22px] md:text-[32px] text-primary dark:text-white font-bold font-rajdhani text-center lg:leading-15'>Inspiring The World One Project</h2>
+                        <p className='text-[16px] text-tertiary font-normal font-rubik text-center lg:w-156.75 w-full mx-auto lg:mt-0 mt-1.25 '>Business consulting consultants provide expert advice and guida businesses to help them improve their performance, efficiency, and organizational</p>
                     </div>
 
-                    <div className=" flex justify-between items-center mt-15">
-                        <div className="w-1/2">
+                    <div className=" lg:flex justify-between items-center lg:mt-15 mt-7.5">
+                        <div className="lg:w-1/2 w-full">
                             <div className="">
                                 <div className="py-8.5 px-9.5 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b border-r border-secondary  ">
                                     <h2 className='text-[24px] text-primary dark:text-white font-bold font-rajdhani leading-15 '>01. A Portfolio of Creativity</h2>
@@ -46,16 +46,16 @@ const Service = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-1/2">
-                        <div className="">
-                            <img src={margin} alt="" />
+                        <div className="lg:w-1/2 w-full">
+                        <div className="lg:mt-0 mt-7.5">
+                            <img className='' src={margin} alt="" />
                         </div>
                         </div>
                     </div>
 
 
-                    <div className=" flex justify-between items-center mt-22.5 gap-8">
-                        <div className="w-1/2">
+                    <div className=" lg:flex md:flex justify-between items-center mt-22.5 gap-8">
+                        <div className="lg:w-1/2 md:w-1/2 w-full">
                         <div className="">
                             <h2 className='text-[32px] text-primary dark:text-white font-bold font-rajdhani leading-10.5'>Design Skill </h2>
                             <div className="mt-7.5">
@@ -68,7 +68,7 @@ const Service = () => {
                             <div className="mt-7.5">
                                 <div className="flex justify-between items-center">
                                 <h3 className='text-[14px] text-primary dark:text-white font-normal font-rubik'>FIGMA</h3>
-                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik mr-5'>95%</h4>
+                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik lg:mr-5 mr-2'>95%</h4>
                                 </div>
                                 <div className="h-2.5 w-full bg-[#F4F4F4] dark:bg-[#2b2a2a] rounded-[10px] mt-4 relative after:absolute 
                             after:h-full after:w-[95%] after:top-0 after:left-0 after:bg-secondary  after:rounded-[10px] "></div>
@@ -76,7 +76,7 @@ const Service = () => {
                             <div className="mt-7.5">
                                 <div className="flex justify-between items-center">
                                 <h3 className='text-[14px] text-primary dark:text-white font-normal font-rubik'>ADOBE XD</h3>
-                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik mr-61'>60%</h4>
+                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik lg:mr-61 mr-30'>60%</h4>
                                 </div>
                                 <div className="h-2.5 w-full bg-[#F4F4F4] dark:bg-[#2b2a2a] rounded-[10px] mt-4 relative after:absolute 
                             after:h-full after:w-[60%] after:top-0 after:left-0 after:bg-secondary  after:rounded-[10px] "></div>
@@ -84,17 +84,17 @@ const Service = () => {
                             <div className="mt-7.5">
                                 <div className="flex justify-between items-center">
                                 <h3 className='text-[14px] text-primary dark:text-white font-normal font-rubik'>ADOBE ILLUSTRATOR</h3>
-                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik mr-46'>70%</h4>
+                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik lg:mr-46 mr-22'>70%</h4>
                                 </div>
                                 <div className="h-2.5 w-full bg-[#F4F4F4] dark:bg-[#2b2a2a] rounded-[10px] mt-4 relative after:absolute 
                             after:h-full after:w-[70%] after:top-0 after:left-0 after:bg-secondary  after:rounded-[10px] "></div>
                             </div>
                         </div>
                         </div>
-                        <div className="w-1/2">
-                        <div className="">
+                        <div className="lg:w-1/2 md:w-1/2 w-full">
+                        <div className="lg:mt-0 md:mt-0 mt-7.5">
                             <h2 className='text-[32px] text-primary dark:text-white font-bold font-rajdhani leading-10.5'>Development Skill  </h2>
-                            <div className="mt-7.5">
+                             <div className="mt-7.5">
                                 <div className="flex justify-between items-center">
                                 <h3 className='text-[14px] text-primary dark:text-white font-normal font-rubik'>PHOTOSHOT</h3>
                                 <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik'>100%</h4>
@@ -104,7 +104,7 @@ const Service = () => {
                             <div className="mt-7.5">
                                 <div className="flex justify-between items-center">
                                 <h3 className='text-[14px] text-primary dark:text-white font-normal font-rubik'>FIGMA</h3>
-                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik mr-5'>95%</h4>
+                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik lg:mr-5 mr-2'>95%</h4>
                                 </div>
                                 <div className="h-2.5 w-full bg-[#F4F4F4] dark:bg-[#2b2a2a] rounded-[10px] mt-4 relative after:absolute 
                             after:h-full after:w-[95%] after:top-0 after:left-0 after:bg-secondary  after:rounded-[10px] "></div>
@@ -112,7 +112,7 @@ const Service = () => {
                             <div className="mt-7.5">
                                 <div className="flex justify-between items-center">
                                 <h3 className='text-[14px] text-primary dark:text-white font-normal font-rubik'>ADOBE XD</h3>
-                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik mr-61'>60%</h4>
+                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik lg:mr-61 mr-30'>60%</h4>
                                 </div>
                                 <div className="h-2.5 w-full bg-[#F4F4F4] dark:bg-[#2b2a2a] rounded-[10px] mt-4 relative after:absolute 
                             after:h-full after:w-[60%] after:top-0 after:left-0 after:bg-secondary  after:rounded-[10px] "></div>
@@ -120,7 +120,7 @@ const Service = () => {
                             <div className="mt-7.5">
                                 <div className="flex justify-between items-center">
                                 <h3 className='text-[14px] text-primary dark:text-white font-normal font-rubik'>ADOBE ILLUSTRATOR</h3>
-                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik mr-46'>70%</h4>
+                                <h4 className='text-[14px] text-primary dark:text-white font-normal font-rubik lg:mr-46 mr-22'>70%</h4>
                                 </div>
                                 <div className="h-2.5 w-full bg-[#F4F4F4] dark:bg-[#2b2a2a] rounded-[10px] mt-4 relative after:absolute 
                             after:h-full after:w-[70%] after:top-0 after:left-0 after:bg-secondary  after:rounded-[10px] "></div>
@@ -130,10 +130,10 @@ const Service = () => {
                         
                     </div>
 
-                   <div className="mt-22.5">
+                   <div className="lg:mt-22.5 mt-15">
                     <h2 className='text-[32px] text-primary dark:text-white font-bold font-rajdhani leading-10.5'>Education </h2>
-                     <div className=" flex justify-between items-center mt-8 gap-8">
-                        <div className="w-1/2">
+                     <div className=" lg:flex  justify-between items-center mt-8 gap-8">
+                        <div className="lg:w-1/2 w-full">
                             <div className="">
                                 <div className="py-12 px-9.5 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b border-r border-secondary  ">
                                     <h4 className='text-[16px] text-primary dark:text-white font-normal font-rubik leading-6.5'>Trainer Marketing</h4>
@@ -151,7 +151,7 @@ const Service = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-1/2">
+                        <div className="lg:w-1/2 w-full lg:mt-0 mt-7.5">
                             <div className="">
                                 <div className="py-12 px-9.5 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b border-r border-secondary  ">
                                     <h4 className='text-[16px] text-primary dark:text-white font-normal font-rubik leading-6.5'>Assistant Director</h4>
@@ -172,24 +172,24 @@ const Service = () => {
                     </div>
                    </div>
 
-                   <div className="flex justify-between items-center gap-17.5 mt-18.75">
-                    <div className="w-1/2">
+                   <div className="lg:flex justify-between items-center gap-17.5 mt-18.75">
+                    <div className="lg:w-1/2 w-full">
                         <img src={container} alt="" />
                     </div>
-                    <div className="w-1/2">
+                    <div className="lg:w-1/2 w-full lg:mt-0 mt-7.5">
                         <div className="">
                             <h2 className='text-[32px] text-primary dark:text-white font-bold font-rajdhani leading-10.5'>Experiences </h2>
                                 <div className="mt-8">
                                     <h3 className='text-[16px] text-secondary font-medium  font-rubik '>experience</h3>
                                     <h4 className='text-[24px] text-primary dark:text-white font-bold font-rajdhani leading-7.5'>Fatima Asrafy</h4>
                                     <h5 className='text-[18px] text-primary dark:text-white font-medium font-rajdhani leading-7'>UI/UX Designer</h5>
-                                    <p className='text-[16px] text-tertiary font-normal font-rubik leading-7.5 mt-4 w-111'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum desi dolore eu fugiat nulla pariatu Duis aute irure</p>
+                                    <p className='text-[16px] text-tertiary font-normal font-rubik leading-7.5 mt-4 lg:w-111 w-full'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum desi dolore eu fugiat nulla pariatu Duis aute irure</p>
                                 </div>
                                 <div className="mt-12.5">
                                     <h3 className='text-[16px] text-secondary font-medium  font-rubik '>experience</h3>
                                     <h4 className='text-[24px] text-primary dark:text-white font-bold font-rajdhani leading-7.5'>Fatima Asrafy</h4>
                                     <h5 className='text-[18px] text-primary dark:text-white font-medium font-rajdhani leading-7'>UI/UX Designer</h5>
-                                    <p className='text-[16px] text-tertiary font-normal font-rubik leading-7.5 mt-4 w-111'>Interested in working together? Let’s bring your ideas to life! Contact me, and let’s start building something.</p>
+                                    <p className='text-[16px] text-tertiary font-normal font-rubik leading-7.5 mt-4 lg:w-111 w-full'>Interested in working together? Let’s bring your ideas to life! Contact me, and let’s start building something.</p>
                                 </div>
                             
                         </div>
@@ -197,18 +197,18 @@ const Service = () => {
                    </div>
 
 
-                   <div className="border border-[#9F9F9F] w-321.5 mx-auto mt-30.5">
-                    <div className="flex">
-                        <img className='border border-[#9F9F9F]' src={lin} alt="" />
-                        <img className='border border-[#9F9F9F]' src={fra} alt="" />
-                        <img className='border border-[#9F9F9F]' src={not} alt="" />
-                        <img className='border border-[#9F9F9F]' src={sla} alt="" />
+                   <div className="border border-[#9F9F9F] lg:mt-30.5 mt-15">
+                    <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
+                        <img className='border border-[#9F9F9F] w-full' src={lin} alt="" />
+                        <img className='border border-[#9F9F9F] w-full' src={fra} alt="" />
+                        <img className='border border-[#9F9F9F] w-full' src={not} alt="" />
+                        <img className='border border-[#9F9F9F] w-full' src={sla} alt="" />
                     </div>
-                    <div className="flex">
-                        <img className='border border-[#9F9F9F]' src={med} alt="" />
-                        <img className='border border-[#9F9F9F]' src={upw} alt="" />
-                        <img className='border border-[#9F9F9F]' src={ama} alt="" />
-                        <img className='border border-[#9F9F9F]' src={asa} alt="" />
+                    <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
+                        <img className='border border-[#9F9F9F] w-full' src={med} alt="" />
+                        <img className='border border-[#9F9F9F] w-full' src={upw} alt="" />
+                        <img className='border border-[#9F9F9F] w-full' src={ama} alt="" />
+                        <img className='border border-[#9F9F9F] w-full' src={asa} alt="" />
 
                     </div>
                    </div>

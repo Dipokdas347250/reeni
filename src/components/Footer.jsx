@@ -13,20 +13,20 @@ import footer from "../assets/footer.png"
 const Footer = () => {
     return (
         <>
-            <footer className='pt-22.5 bg-[#f4f4f4] dark:bg-primary  relative'>
-                <img className=' absolute top-15 left-25' src={footer} alt="" />
+            <footer className='lg:pt-22.5 pt-15 bg-[#f4f4f4] dark:bg-primary  relative'>
+                <img className=' absolute top-15 left-25 hidden lg:block' src={footer} alt="" />
                 <div className="container">
-                    <div className=" flex justify-between items-start">
-                        <div className="w-1/2">
+                    <div className=" lg:flex justify-between items-start">
+                        <div className="lg:w-1/2 w-full">
                             <img className='w-30' src={logo} alt="" />
-                            <h2 className='text-[50px] text-primary dark:text-white  font-bold font-rajdhani leading-15 w-[50%] mt-5.5'>Get Ready <span className='font-normal'>To Create Great</span></h2>
+                            <h2 className='text-[50px] text-primary dark:text-white  font-bold font-rajdhani leading-15 lg:w-[50%] w-full mt-5.5'>Get Ready <span className='font-normal'>To Create Great</span></h2>
 
                             <input className=' outline-none border-b border-[#D9DDE0] pb-2.5 w-1/2 mt-10 text-tertiary dark:text-white' type="email" placeholder='Email Adress' />
 
                         </div>
-                        <div className="w-1/2">
-                            <div className="flex justify-between items-start">
-                                <div className="w-1/2">
+                        <div className="lg:w-1/2 w-full lg:mt-0 mt-7.5">
+                            <div className="lg:flex md:flex justify-between items-start">
+                                <div className="lg:w-1/2 md:w-1/2 w-full">
                                     <div className="">
                                         <h2 className='text-[24px] text-primary dark:text-white  font-bold font-rajdhani leading-7.5 '>Quick Link</h2>
                                         <ul className='text-[16px] text-primary dark:text-white font-normal font-rubik leading-7.5 space-y-2 mt-10  '>
@@ -38,7 +38,7 @@ const Footer = () => {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="w-1/2">
+                                <div className="lg:w-1/2 md:w-1/2 w-full lg:mt-0 md:mt-0 mt-7.5">
                                     <div className="">
                                         <h2 className='text-[24px] text-primary dark:text-white  font-bold font-rajdhani leading-7.5 '>Contact</h2>
                                         <div className=" space-y-3.75 mt-10">
@@ -83,9 +83,9 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=" flex justify-between items-center py-7 border-t border-[#D9DDE0] mt-31.75">
-                        <p className='text-[14px] text-tertiary dark:text-white font-normal font-rubik leading-7.5 '>© InversWeb 2026 | All Rights Reserved</p>
-                        <p className='text-[14px] text-primary dark:text-white font-normal font-rubik leading-7.5 '>Trams & Condition Privacy Policy Contact Us</p>
+                    <div className=" lg:flex md:flex justify-between items-center py-7 border-t border-[#D9DDE0] lg:mt-31.75 mt-15">
+                        <p className='text-[14px] text-tertiary dark:text-white font-normal font-rubik leading-7.5 lg:text-start md:text-start text-center '>© InversWeb 2026 | All Rights Reserved</p>
+                        <p className='text-[14px] text-primary dark:text-white font-normal font-rubik leading-7.5 lg:text-start md:text-start text-center '>Trams & Condition Privacy Policy Contact Us</p>
                     </div>
 
                 </div>

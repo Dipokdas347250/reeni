@@ -6,15 +6,15 @@ import { MdArrowForward } from "react-icons/md";
 const Price_plen = () => {
     return (
         <>
-            <section className='pt-30 bg-white dark:bg-[#1e1e1e]'>
+            <section className='lg:pt-30 pt-15 bg-white dark:bg-[#1e1e1e]'>
                 <div className="container">
                     <div className="">
                         <h4 className='text-[16px] text-secondary font-medium  font-rubik  text-center uppercase'>My Price plan</h4>
-                        <h2 className='text-[48px] text-primary dark:text-white font-bold font-rajdhani text-center leading-15 w-121 mx-auto'>Enhancing Collaboration between Remote</h2>
+                        <h2 className='lg:text-[48px] md:text-[32px] text-[22px] text-primary dark:text-white font-bold font-rajdhani text-center lg:leading-15 lg:w-121 w-full mx-auto'>Enhancing Collaboration between Remote</h2>
                        
                     </div>
-                    <div className=" flex justify-between items-center gap-7.5 mt-12.5">
-                        <div className="w-[33%]">
+                    <div className=" lg:flex justify-between items-center gap-7.5 lg:mt-12.5 mt-7.5">
+                        <div className="lg:w-[33%] w-full lg:mt-0 mt-7.5">
                             <div className="p-9.5 bg-[#F4F4F4] dark:bg-primary border-b border-r border-secondary rounded-[20px] group cursor-pointer">
                                 <div className="">
                                     <h3 className='text-[18px] text-primary dark:text-white font-bold font-rajdhani'>Starter</h3>
@@ -42,7 +42,7 @@ const Price_plen = () => {
 
                             </div>
                         </div>
-                        <div className="w-[33%]">
+                        <div className="lg:w-[33%] w-full lg:mt-0 mt-7.5">
                             <div className="p-9.5 bg-[#F4F4F4] dark:bg-primary border-b border-r border-secondary rounded-[20px] group cursor-pointer">
                                 <div className="">
                                     <h3 className='text-[18px] text-primary dark:text-white font-bold font-rajdhani'>Basic</h3>
@@ -78,7 +78,7 @@ const Price_plen = () => {
 
                             </div>
                         </div>
-                        <div className="w-[33%]">
+                        <div className="lg:w-[33%] w-full lg:mt-0 mt-7.5">
                             <div className="p-9.5 bg-[#F4F4F4] dark:bg-primary border-b border-r border-secondary rounded-[20px] group cursor-pointer">
                                 <div className="">
                                     <h3 className='text-[18px] text-primary dark:text-white font-bold font-rajdhani'>Premium</h3>

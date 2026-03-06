@@ -8,7 +8,7 @@
 
 @layer utilities{
   .container {
-    @apply max-w-322.5 mx-auto
+    @apply max-w-322.5 mx-auto px-3.75 lg:px-0
   }
 }
 
