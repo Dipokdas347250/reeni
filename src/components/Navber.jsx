@@ -139,7 +139,7 @@ const Navber = () => {
 
           {/* Mobile Hamburger */}
           <div
-            className="lg:hidden p-3 bg-[#e6e6e6] dark:bg-[#232323] text-primary rounded-full cursor-pointer"
+            className="lg:hidden p-3 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full cursor-pointer"
             onClick={() => setMenuOpen(true)}
           >
             <FaBarsStaggered />
@@ -157,7 +157,7 @@ const Navber = () => {
 
       
       <div
-        className={`fixed top-0 right-0 h-full w-72 bg-white shadow-2xl z-50 transform ${
+        className={`fixed top-0 right-0 h-full w-72 bg-white dark:bg-primary shadow-2xl z-50 transform ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out lg:hidden`}
       >

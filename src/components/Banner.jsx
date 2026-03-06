@@ -22,7 +22,7 @@ const Banner = () => {
 
     return (
         <>
-            <section className='pb-22.5 bg-white relative dark:bg-[#1e1e1e]'>
+            <section className='lg:pb-22.5 pb-7.5 bg-white relative dark:bg-[#1e1e1e]'>
               
                 <div className="container ">
                     <div className=" ">

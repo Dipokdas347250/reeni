@@ -7,7 +7,7 @@ import mark from "../assets/mark.svg"
 const Experience = () => {
     return (
         <>
-            <section className='pt-22.5 bg-white dark:bg-[#1e1e1e]'>
+            <section className='lg:pt-22.5 bg-white dark:bg-[#1e1e1e]'>
                 <div className="container">
                     <div className="lg:flex  justify-between items-center gap-7.5">
                         <div className="lg:w-[25%] w-full lg:mt-0 mt-7.5">
