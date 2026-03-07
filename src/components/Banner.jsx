@@ -71,7 +71,7 @@ const Banner = () => {
                 </div>
 
 
-                <div className="flex rotate-90 absolute lg:top-88 top-95 -right-23 z-30">
+                <div className="flex rotate-90 fixed lg:top-88 top-95 -right-23 z-30">
                     <div className="lg:py-2.5 py-2 px-6 bg-[#1F242E] ">
                         <h3 className='text-[16px] text-white font-medium font-rajdhani leading-5 uppercase rotate-180'>48 Pre-built sites</h3>
 
