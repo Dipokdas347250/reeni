@@ -93,7 +93,7 @@ const Banner = () => {
                 </div>
 
             </div>
-            <div className={`fixed top-0 right-0 h-screen lg:w-100 bg-white shadow-lg duration-500 transform z-50 
+            <div className={`fixed top-0 right-0 h-screen lg:w-100 bg-white shadow-lg duration-500 transform overflow-y-scroll z-50 
     ${open ? "translate-x-0" : "translate-x-full"}`}>
                 <div className="py-2.5 px-5 bg-[#EDEDED] dark:bg-primary flex justify-between items-center">
                     <img className='w-28' src={logo} alt="" />
@@ -147,16 +147,16 @@ const Banner = () => {
                     <div className="mt-5.5">
                         <h4 className='text-[16px] text-primary dark:text-white font-normal font-rubik uppercase leading-7.5'>find with me</h4>
                         <div className="flex items-center gap-2 mt-2.5">
-                            <div className="p-3.25 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 ease-in-out hover:bg-secondary hover:text-white  ">
+                            <div className="p-3.25 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 ease-in-out hover:bg-secondary hover:text-white cursor-pointer  ">
                                 <FaInstagram />
                             </div>
-                            <div className="p-3.25 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 ease-in-out hover:bg-secondary hover:text-white  ">
+                            <div className="p-3.25 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 ease-in-out hover:bg-secondary hover:text-white cursor-pointer  ">
                                 <FaLinkedinIn />
                             </div>
-                            <div className="p-3.25 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 ease-in-out hover:bg-secondary hover:text-white  ">
+                            <div className="p-3.25 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 ease-in-out hover:bg-secondary hover:text-white cursor-pointer  ">
                                 <FaTwitter />
                             </div>
-                            <div className="p-3.25 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 ease-in-out hover:bg-secondary hover:text-white  ">
+                            <div className="p-3.25 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 ease-in-out hover:bg-secondary hover:text-white cursor-pointer  ">
                                 <FaFacebookF />
                             </div>
 

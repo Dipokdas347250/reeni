@@ -36,7 +36,7 @@ const Portfolio = () => {
                                 <h2 className='lg:text-[24px] text-[20px] text-primary dark:text-white font-bold font-rajdhani leading-7.5'>My Journey as a Creator</h2>
                                 <p className='text-[16px] text-tertiary font-normal font-rubik mt-2.5'>Development Coaches</p>
                             </div>
-                            <div className=" p-3 border border-[#D9DDE0] rounded-[10px] text-primary dark:text-white">
+                            <div className=" p-3 border border-[#D9DDE0] rounded-[10px] text-primary dark:text-white cursor-pointer">
                                 <FiArrowUpRight/>
                             </div>
                         </div>
@@ -53,7 +53,7 @@ const Portfolio = () => {
                                 <h2 className='lg:text-[24px] text-[20px] text-primary dark:text-white font-bold font-rajdhani leading-7.5'>My Portfolio of Innovation</h2>
                                 <p className='text-[16px] text-tertiary font-normal font-rubik mt-2.5'>App Development</p>
                             </div>
-                            <div className=" p-3 border border-[#D9DDE0] rounded-[10px] text-primary dark:text-white">
+                            <div className=" p-3 border border-[#D9DDE0] rounded-[10px] text-primary dark:text-white cursor-pointer">
                                 <FiArrowUpRight/>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ const Portfolio = () => {
                                 <h2 className='lg:text-[24px] text-[20px] text-primary dark:text-white font-bold font-rajdhani leading-7.5'>My Professional Portfolio</h2>
                                 <p className='text-[16px] text-tertiary font-normal font-rubik mt-2.5'>Development Coaches</p>
                             </div>
-                            <div className=" p-3 border border-[#D9DDE0] rounded-[10px] text-primary dark:text-white">
+                            <div className=" p-3 border border-[#D9DDE0] rounded-[10px] text-primary dark:text-white cursor-pointer">
                                 <FiArrowUpRight/>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ const Portfolio = () => {
                                 <h2 className='lg:text-[24px] text-[20px] text-primary dark:text-white font-bold font-rajdhani leading-7.5'>A Portfolio of Creativity and Passion</h2>
                                 <p className='text-[16px] text-tertiary font-normal font-rubik mt-2.5'>Business Development</p>
                             </div>
-                            <div className=" p-3 border border-[#D9DDE0] rounded-[10px] text-primary dark:text-white">
+                            <div className=" p-3 border border-[#D9DDE0] rounded-[10px] text-primary dark:text-white cursor-pointer">
                                 <FiArrowUpRight/>
                             </div>
                         </div>
