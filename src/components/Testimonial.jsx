@@ -13,7 +13,7 @@ const Testimonial = () => {
                     </div>
                     <div className="lg:flex justify-between items-center gap-8 lg:mt-13 mt-7.5">
                         <div className="lg:w-1/2 w-full lg:mt-0 mt-7.5">
-                        <div className="p-9.5 bg-[#F4F4F4] dark:bg-primary border-b border-r border-secondary rounded-[20px]">
+                        <div className="p-9.5 bg-[#F4F4F4] dark:bg-primary border-b-3 border-r-3 border-secondary rounded-[20px]">
                             <img src={test} alt="" />
                             <p className='text-[18px] text-tertiary font-normal font-rubik leading-7.5 mt-10.5'> A personal portfolio is a curated collection of an individual's professional work, showcasing their skilA personal portfolio is a curated collection of an individual's professional work, showcasing their skills,</p>
                             <h3 className='text-[18px] text-primary dark:text-white  font-bold font-rajdhani leading-7.5 mt-9'>Cameron Williamson</h3>
@@ -24,7 +24,7 @@ const Testimonial = () => {
 
                         </div>
                         <div className="lg:w-1/2 w-full lg:mt-0 mt-7.5">
-                        <div className="p-9.5 bg-[#F4F4F4] dark:bg-primary border-b border-r border-secondary rounded-[20px]">
+                        <div className="p-9.5 bg-[#F4F4F4] dark:bg-primary border-b-3 border-r-3 border-secondary rounded-[20px]">
                             <img src={test} alt="" />
                             <p className='text-[18px] text-tertiary font-normal font-rubik leading-7.5 mt-10.5'> A personal portfolio is a curated collection of an individual's professional work, showcasing their skilA personal portfolio is a curated collection of an individual's professional work, showcasing their skills,</p>
                             <h3 className='text-[18px] text-primary dark:text-white  font-bold font-rajdhani leading-7.5 mt-9'>Cameron Williamson</h3>

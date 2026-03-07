@@ -31,7 +31,7 @@ const Banner = () => {
                             <div className="lg:w-[25%] w-full lg:mt-52.75 mt-125 md:mt-150 ">
                                 <h2 className='lg:text-[28px] text-[20px] md:text-[28px] text-primary dark:text-white font-bold font-rajdhani uppercase leading-9.5'>Hello i’m</h2>
                                 <h1 className='lg:text-[90px] text-[38px] md:text-[70px] text-primary dark:text-white font-bold font-rajdhani  lg:leading-26 md:leading-26  leading-12'>Brooklyn Simmons</h1>
-                                <button className='px-7  bg-secondary flex items-center gap-1 rounded-full text-[16px] text-white font-medium font-rubik leading-15 mt-5'>View Portfolio <MdArrowForward /></button>
+                                <button className='px-7  bg-secondary flex items-center gap-1 rounded-full text-[16px] text-white font-medium font-rubik leading-15 mt-5 cursor-pointer'>View Portfolio <MdArrowForward /></button>
                             </div>           
                             <div className="lg:w-[25%] w-full lg:mt-52.75 mt-7.5 ">
                                 <h3 className='text-[16px] text-primary dark:text-white font-normal font-rubik leading-7.5'>About Me</h3>
@@ -41,16 +41,16 @@ const Banner = () => {
                                 <div className="mt-10 ">
                                     <h4 className='text-[16px] text-primary dark:text-white font-normal font-rubik leading-7.5'>Find me on</h4>
                                     <div className="flex items-center gap-2 mt-2.5">
-                                        <div className="p-3.25 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 ease-in-out hover:bg-secondary hover:text-white  ">
+                                        <div className="p-3.25 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 ease-in-out hover:bg-secondary hover:text-white cursor-pointer  ">
                                             <FaInstagram />
                                         </div>
-                                        <div className="p-3.25 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 ease-in-out hover:bg-secondary hover:text-white  ">
+                                        <div className="p-3.25 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 ease-in-out hover:bg-secondary hover:text-white cursor-pointer  ">
                                             <FaLinkedinIn />
                                         </div>
-                                        <div className="p-3.25 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 ease-in-out hover:bg-secondary hover:text-white  ">
+                                        <div className="p-3.25 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 ease-in-out hover:bg-secondary hover:text-white cursor-pointer  ">
                                             <FaTwitter />
                                         </div>
-                                        <div className="p-3.25 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 ease-in-out hover:bg-secondary hover:text-white  ">
+                                        <div className="p-3.25 bg-[#e6e6e6] dark:bg-[#232323] text-primary dark:text-white rounded-full duration-300 ease-in-out hover:bg-secondary hover:text-white cursor-pointer  ">
                                             <FaFacebookF />
                                         </div>
 

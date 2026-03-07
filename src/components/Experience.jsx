@@ -71,14 +71,14 @@ const Experience = () => {
                            <div className="">
                              <div className="lg:flex md:flex justify-between items-center gap-8">
                                 <div className="lg:w-1/2 w-full lg:mt-0 mt-8 ">
-                                    <div className="py-9 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b border-r border-secondary  ">
+                                    <div className="py-9 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b-3 border-r-3 border-secondary  ">
                                         <h2 className='text-[48px] text-primary dark:text-white font-bold font-rajdhani leading-15.5 text-center'>20k+</h2>
                                         <p className='text-[16px] text-tertiary font-normal font-rubik leading-6.5 mt-1 text-center'>Our Project Complete</p>
 
                                     </div>
                                 </div>
                                 <div className="lg:w-1/2 w-full lg:mt-0 mt-8 ">
-                                    <div className="py-9 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b border-r border-secondary  ">
+                                    <div className="py-9 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b-3 border-r-3 border-secondary  ">
                                         <h2 className='text-[48px] text-primary dark:text-white font-bold font-rajdhani leading-15.5 text-center'>20k+</h2>
                                         <p className='text-[16px] text-tertiary font-normal font-rubik leading-6.5 mt-1 text-center'>Our Project Complete</p>
 
@@ -90,14 +90,14 @@ const Experience = () => {
                             <div className="">
                                  <div className="lg:flex md:flex justify-between items-center gap-8 mt-8">
                                 <div className="lg:w-1/2 w-full lg:mt-0 mt-8 ">
-                                    <div className="py-9 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b border-r border-secondary  ">
+                                    <div className="py-9 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b-3 border-r-3 border-secondary  ">
                                         <h2 className='text-[48px] text-primary dark:text-white font-bold font-rajdhani leading-15.5 text-center'>20k+</h2>
                                         <p className='text-[16px] text-tertiary font-normal font-rubik leading-6.5 mt-1 text-center'>Our Project Complete</p>
 
                                     </div>
                                 </div>
                                 <div className="lg:w-1/2 w-full lg:mt-0 mt-8 ">
-                                    <div className="py-9 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b border-r border-secondary  ">
+                                    <div className="py-9 bg-[#f4f4f4] dark:bg-primary rounded-[20px] border-b-3 border-r-3 border-secondary  ">
                                         <h2 className='text-[48px] text-primary dark:text-white font-bold font-rajdhani leading-15.5 text-center'>20k+</h2>
                                         <p className='text-[16px] text-tertiary font-normal font-rubik leading-6.5 mt-1 text-center'>Our Project Complete</p>
 
