@@ -37,7 +37,7 @@ const Price_plen = () => {
                                 </div>
 
                                 <div className="">
-                                    <button className='px-6 mt-10 border border-[#D9DDE0] duration-300 ease-in-out group-hover:bg-secondary  flex items-center gap-1 rounded-full text-[14px] text-primary hover:text-white dark:text-white font-medium font-rubik leading-12  cursor-pointer'>Get Started<MdArrowForward /></button>
+                                    <button className='px-6 mt-10 border border-[#D9DDE0] duration-300 ease-in-out hover:bg-secondary  flex items-center gap-1 rounded-full text-[14px] text-primary hover:text-white dark:text-white font-medium font-rubik leading-12  cursor-pointer'>Get Started<MdArrowForward /></button>
                                 </div>
 
                             </div>
@@ -73,7 +73,7 @@ const Price_plen = () => {
                                 </div>
 
                                 <div className="">
-                                    <button className='px-6 mt-10 border border-[#D9DDE0] duration-300 ease-in-out hover:bg-secondary  flex items-center gap-1 rounded-full text-[14px] text-primary group-hover:text-white dark:text-white font-medium font-rubik leading-12 cursor-pointer '>Get Started<MdArrowForward /></button>
+                                    <button className='px-6 mt-10 border border-[#D9DDE0] duration-300 ease-in-out hover:bg-secondary  flex items-center gap-1 rounded-full text-[14px] text-primary hover:text-white dark:text-white font-medium font-rubik leading-12 cursor-pointer '>Get Started<MdArrowForward /></button>
                                 </div>
 
                             </div>
@@ -101,7 +101,7 @@ const Price_plen = () => {
                                 </div>
 
                                 <div className="">
-                                    <button className='px-6 mt-10 border border-[#D9DDE0] duration-300 ease-in-out hover:bg-secondary  flex items-center gap-1 rounded-full text-[14px] text-primary group-hover:text-white dark:text-white font-medium font-rubik leading-12  cursor-pointer'>Get Started<MdArrowForward /></button>
+                                    <button className='px-6 mt-10 border border-[#D9DDE0] duration-300 ease-in-out hover:bg-secondary  flex items-center gap-1 rounded-full text-[14px] text-primary hover:text-white dark:text-white font-medium font-rubik leading-12  cursor-pointer'>Get Started<MdArrowForward /></button>
                                 </div>
 
                             </div>
