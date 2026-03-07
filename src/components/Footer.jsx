@@ -5,6 +5,8 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
 import { FaInstagram, FaLinkedinIn, FaTwitter, FaFacebookF } from "react-icons/fa";
 import footer from "../assets/footer.png"
+import { LuMail } from "react-icons/lu";
+
 
 
 
@@ -21,7 +23,11 @@ const Footer = () => {
                             <img className='w-30' src={logo} alt="" />
                             <h2 className='text-[50px] text-primary dark:text-white  font-bold font-rajdhani leading-15 lg:w-[50%] w-full mt-5.5'>Get Ready <span className='font-normal'>To Create Great</span></h2>
 
-                            <input className=' relative z-20 outline-none border-b border-[#D9DDE0] pb-2.5 w-1/2 mt-10 text-tertiary dark:text-white' type="email" placeholder='Email Adress' />
+                           <div className="relative">
+                             <input className='  z-20 outline-none border-b border-[#D9DDE0] pb-2.5 w-1/2 mt-10 text-tertiary dark:text-white' type="email" placeholder='Email Adress' />
+                             <LuMail className=' absolute bottom-4 right-1/2'/>
+
+                           </div>
 
                         </div>
                         <div className="lg:w-1/2 w-full lg:mt-0 mt-7.5">

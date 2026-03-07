@@ -172,7 +172,7 @@ const Service = () => {
                     </div>
                    </div>
 
-                   <div className="lg:flex justify-between items-center gap-17.5 mt-18.75">
+                   <div className="lg:flex justify-between items-start gap-17.5 mt-18.75">
                     <div className="lg:w-1/2 w-full">
                         <img src={container} alt="" />
                     </div>

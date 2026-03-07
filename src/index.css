@@ -26,6 +26,7 @@ body{
   --color-white: var(--white);
   --font-rajdhani: "Rajdhani", sans-serif;
   --font-Rubik: "Rubik", sans-serif;
+  --font-Inter: "Inter", sans-serif;
 
 }
 
@@ -38,6 +39,7 @@ body{
 @theme {
   --font-rajdhani: "Rajdhani", sans-serif;
   --font-rubik: "Rubik", sans-serif;
+  --font-inter: "Inter", sans-serif;
 }
 
 

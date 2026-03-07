@@ -15,7 +15,7 @@ const Price_plen = () => {
                     </div>
                     <div className=" lg:flex justify-between items-center gap-7.5 lg:mt-12.5 mt-7.5">
                         <div className="lg:w-[33%] w-full lg:mt-0 mt-7.5">
-                            <div className="p-9.5 bg-[#F4F4F4] dark:bg-primary border-b-3 border-r-3 border-secondary rounded-[20px] group cursor-pointer">
+                            <div className="p-9.5 bg-[#F4F4F4] dark:bg-primary border-b-3 border-r-3 border-secondary rounded-[20px] ">
                                 <div className="">
                                     <h3 className='text-[18px] text-primary dark:text-white font-bold font-rajdhani'>Starter</h3>
                                     <h2 className='text-[48px] text-primary dark:text-white font-bold font-rajdhani'>$ 5.00</h2>
@@ -37,13 +37,13 @@ const Price_plen = () => {
                                 </div>
 
                                 <div className="">
-                                    <button className='px-6 mt-10 border border-[#D9DDE0] duration-300 ease-in-out group-hover:bg-secondary  flex items-center gap-1 rounded-full text-[14px] text-primary group-hover:text-white dark:text-white font-medium font-rubik leading-12  cursor-pointer'>Get Started<MdArrowForward /></button>
+                                    <button className='px-6 mt-10 border border-[#D9DDE0] duration-300 ease-in-out group-hover:bg-secondary  flex items-center gap-1 rounded-full text-[14px] text-primary hover:text-white dark:text-white font-medium font-rubik leading-12  cursor-pointer'>Get Started<MdArrowForward /></button>
                                 </div>
 
                             </div>
                         </div>
                         <div className="lg:w-[33%] w-full lg:mt-0 mt-7.5">
-                            <div className="p-9.5 bg-[#F4F4F4] dark:bg-primary border-b-3 border-r-3 border-secondary rounded-[20px] group cursor-pointer">
+                            <div className="p-9.5 bg-[#F4F4F4] dark:bg-primary border-b-3 border-r-3 border-secondary rounded-[20px] ">
                                 <div className="">
                                     <h3 className='text-[18px] text-primary dark:text-white font-bold font-rajdhani'>Basic</h3>
                                     <h2 className='text-[48px] text-primary dark:text-white font-bold font-rajdhani'>$ 230.00</h2>
@@ -73,13 +73,13 @@ const Price_plen = () => {
                                 </div>
 
                                 <div className="">
-                                    <button className='px-6 mt-10 border border-[#D9DDE0] duration-300 ease-in-out group-hover:bg-secondary  flex items-center gap-1 rounded-full text-[14px] text-primary group-hover:text-white dark:text-white font-medium font-rubik leading-12 cursor-pointer '>Get Started<MdArrowForward /></button>
+                                    <button className='px-6 mt-10 border border-[#D9DDE0] duration-300 ease-in-out hover:bg-secondary  flex items-center gap-1 rounded-full text-[14px] text-primary group-hover:text-white dark:text-white font-medium font-rubik leading-12 cursor-pointer '>Get Started<MdArrowForward /></button>
                                 </div>
 
                             </div>
                         </div>
                         <div className="lg:w-[33%] w-full lg:mt-0 mt-7.5">
-                            <div className="p-9.5 bg-[#F4F4F4] dark:bg-primary border-b-3 border-r-3 border-secondary rounded-[20px] group cursor-pointer">
+                            <div className="p-9.5 bg-[#F4F4F4] dark:bg-primary border-b-3 border-r-3 border-secondary rounded-[20px] ">
                                 <div className="">
                                     <h3 className='text-[18px] text-primary dark:text-white font-bold font-rajdhani'>Premium</h3>
                                     <h2 className='text-[48px] text-primary dark:text-white font-bold font-rajdhani'>$ 45.00</h2>
@@ -101,7 +101,7 @@ const Price_plen = () => {
                                 </div>
 
                                 <div className="">
-                                    <button className='px-6 mt-10 border border-[#D9DDE0] duration-300 ease-in-out group-hover:bg-secondary  flex items-center gap-1 rounded-full text-[14px] text-primary group-hover:text-white dark:text-white font-medium font-rubik leading-12  cursor-pointer'>Get Started<MdArrowForward /></button>
+                                    <button className='px-6 mt-10 border border-[#D9DDE0] duration-300 ease-in-out hover:bg-secondary  flex items-center gap-1 rounded-full text-[14px] text-primary group-hover:text-white dark:text-white font-medium font-rubik leading-12  cursor-pointer'>Get Started<MdArrowForward /></button>
                                 </div>
 
                             </div>
